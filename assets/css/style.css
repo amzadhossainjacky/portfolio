@@ -32,10 +32,18 @@ img{}
 
 /**********************************
 
-***      Slider section      ***
+***      banner section      ***
 
 **********************************/
 
+.banner-section .container{
+    background: #faf2e7;
+    padding-top: 50px;
+}
+
+.vh{
+    min-height: 100vh;
+}
 
 /**********************************
 
