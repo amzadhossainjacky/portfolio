@@ -481,7 +481,7 @@ img{
 }
 
 .maxi-vh{
-  height: 76vh;
+  max-height: 82vh;
 }
 .mini-vh{
   min-height: 100vh;
@@ -655,10 +655,35 @@ img{
 
 /**********************************
 
-***       services-section        ***
+***       Contact-section        ***
 
 **********************************/
+.contact-section{
+  background: #faf2e7;
+  padding: 30px 0px 48px 0px;
+}
 
+.contact span{
+  display: inline-block;
+}
+.contact-section p{
+  
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0px;
+  text-align: justify;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.contact-section .global-btn{
+  padding: 5px 15px;
+  border: 2px solid #faf2e7;
+}
+.contact-section a:hover{
+  border: 2px solid #ffb633;
+  background: #fff;
+}
 
 
 /**********************************
