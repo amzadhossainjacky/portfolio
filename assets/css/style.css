@@ -481,7 +481,7 @@ img{
 }
 
 .maxi-vh{
-  max-height: 82vh;
+  max-height: 76vh;
 }
 .mini-vh{
   min-height: 100vh;
@@ -659,7 +659,7 @@ img{
 
 **********************************/
 .contact-section{
-  background: #faf2e7;
+  background: #fff;
   padding: 30px 0px 48px 0px;
 }
 
@@ -685,13 +685,72 @@ img{
   background: #fff;
 }
 
-
 /**********************************
 
-***        service section      ***
+***        services section      ***
 
 **********************************/
 
+.services-section{
+  background: #faf2e7;
+  padding: 100px 0px;
+}
+
+.services-content .global-span{
+  margin-top: 15px;
+}
+.services-content p{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.8rem;
+  margin: 20px 0px;
+}
+.services-section .global-btn{
+  padding: 5px 15px;
+  border: 2px solid #faf2e7;
+}
+.services-section a:hover{
+  border: 2px solid #ffb633;
+  background: #fff;
+}
+
+.service-box, .service-box-2{
+  background: #fff;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+.service-box-2{
+  text-align: end;
+}
+
+.service-box p, .service-box-2 p{
+  font-size:16px;
+  text-align: justify;
+  line-height: 1.8rem;
+  margin-top: 15px;
+}
+
+.service-box span{
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  padding: 10px;
+  background: #fff;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+.service-box-2 span{
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  padding: 10px;
+  background: #fff;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
 
 /**********************************
 
