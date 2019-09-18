@@ -97,7 +97,6 @@ object {
   border: 0px;
   font-variant: normal;
   text-transform: none;
-  speak: none;
 }
 /* --- HTML5 display-role reset for older browsers --------------------- */
 article,
@@ -298,9 +297,6 @@ label {
 input[type="checkbox"],
 .check,
 input[type="radio"],
-.radio {
-  /* display: none; */
-}
 input[type="checkbox"] + label,
 .check + label,
 input[type="radio"] + label,
@@ -519,8 +515,6 @@ hr,
 
 **********************************/
 
-.banner-section{
-}
 .banner-section .container{
     background: #faf2e7;
     padding-top: 50px;    
@@ -547,9 +541,6 @@ hr,
     font-size: 20px;
     font-weight: 500;
     margin: 20px 0px;
-}
-
-.banner-content .banner-img{
 }
 
 .banner-social ul li a{
