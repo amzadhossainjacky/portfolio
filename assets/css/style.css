@@ -129,7 +129,7 @@ h4,
 h5,
 h6 {
   font-family: 'Poppins', sans-serif;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   font-weight: 700;
   color: #000000;
 }
@@ -754,10 +754,53 @@ img{
 
 /**********************************
 
-***        blog section      ***
+***        footer - section     ***
 
 **********************************/
 
+.footer-section{
+  background: #f4e0c8;
+  padding: 50px 0px;
+}
+
+.footer-section h1{
+  margin-bottom: 30px;
+ }
+ .footer-section h5{
+   font-size: 15px;
+   font-weight: 500 !important;
+   line-height: 1.3rem;
+   align-items: center;
+ }
+
+
+.footer-link ul li{
+  display: inline-block;
+  padding: 0px 5px;
+  font-size: 15px;
+}
+.footer-link ul li a{
+  color: #000;
+  font-weight: 500;
+}
+
+.footer-link ul li a:hover{
+  color: #ffa600;
+}
+
+.footer-social ul{
+  justify-content: center;
+  display: flex;
+}
+.footer-social i{
+  padding: 0px 10px;
+  font-size: 20px;
+  color: #2c2c2c;
+  line-height: 1.3rem;
+}
+.footer-social i:hover{
+  color: #ffa600;
+}
 
 /**********************************
 
