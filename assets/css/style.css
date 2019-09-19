@@ -759,9 +759,13 @@ img{
 
 .portfolio-section img{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 30px !important;
 } 
 
+.portfolio-section .img-fluid{
+  display: block;
+  margin: 0 auto;
+}
 /**********************************
 
 ***       Contact-section        ***
