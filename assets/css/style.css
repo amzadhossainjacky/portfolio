@@ -734,10 +734,6 @@ img{
 .portfolio-header span{
   display: inline-block;
 }
-
-.portfolio-menu{
-
-}
 .portfolio-menu ul{
   display: block;
 }
@@ -766,6 +762,8 @@ img{
   display: block;
   margin: 0 auto;
 }
+
+
 /**********************************
 
 ***       Contact-section        ***
