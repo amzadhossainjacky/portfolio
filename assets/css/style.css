@@ -533,7 +533,6 @@ img{
 }
 
 .navigation-section .nav-link:last-child{
-  
   padding-right: 0px !important;
 }
 
@@ -585,11 +584,13 @@ img{
   position: relative;
   z-index: 200;
   float: right;
+  height: 440px;
+  width: 380px;
 }
 .banner-img .right-rect{
     position: absolute;
     height: 425px;
-    width: 205px;
+    width: 200px;
     right: 0px;
     top: 30px;
     border: 2px solid #ffb633;
@@ -612,16 +613,15 @@ img{
   position: relative;
   border-radius: 10px;
   z-index: 200 !important;
-  margin-left: 85px;
 }
 .about-section .left-rect{
   position: absolute;
   height: 425px;
-  width: 220px;
-  left:85px;
+  width: 190px;
+  left:0px;
   top: 30px;
   border-radius: 10px;
-  border: 3px solid #ffb633;
+  border: 2px solid #ffb633;
   z-index: 100;
   opacity: 1;
 }
