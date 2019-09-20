@@ -3,15 +3,16 @@
         margin-left: 80px;
     }
 
-    /* banner */
+    /* services */
+    .service-box{
+        margin-bottom: 40px;
+    }
 
 }
 
 
 @media(max-width: 991px){
     
-
-
     .navigation-section .nav-link{
         display: inline-block !important;
     }
@@ -39,6 +40,18 @@
     .about-content{
         margin-top: 50px;
     }
+
+    /* services */
+    .service-box{
+        margin-top: 80px;
+    }
+
+    
+    /* footer*/
+    .footer-link{
+        margin: 10px 0px;
+    }
+
 
 }
 
@@ -97,7 +110,6 @@
         width: 300px;
       }
       .about-section .left-rect{
-        position: absolute;
         height: 345px;
         width: 160px;
         left:3px;
@@ -114,6 +126,79 @@
       .about-content a{
         padding: 5px 10px;
         font-size: 14px;
+      }
+
+     /*  services */
+     .services-content h1{
+         font-size: 22px;
+     }
+     .services-content p{
+        font-size:16px;
+      }
+      .service-box p, .service-box-2 p{
+        font-size:16px;
+      }
+      
+      .service-box img, .service-box-2 img{
+        height:48px;
+        width: 48px;
+    } 
+
+    .service-box{
+        margin-bottom: 20px;
+    }
+
+    /* portfolio */
+
+    .portfolio-header h1{
+        font-size: 22px;
+    }
+
+    .portfolio-menu ul li{
+        padding: 3px 5px;
+        font-size: 12px;
+      }
+
+      /* contact */
+
+      .contact-section h1{
+        font-size: 22px;
+      }
+
+      .contact-section p{
+        font-size: 16px;
+      }
+
+     /*  get in touch */
+
+      .get-section img{
+          
+        width: 320px;
+        height: 320px;
+      }
+      
+      .get-section .left-rect{
+        height: 305px;
+        width: 160px;
+        left:3px;
+        top: 30px;
+      }
+
+      .get-section h1{
+          font-size: 22px;
+          margin-top: 50px;
+      }
+
+      .get-section .mb-4{
+          margin-bottom: 15px !important;
+      }
+
+      .get-section {
+        text-align: center;
+      }
+      
+      .get-section .global-btn{
+        margin: 0 auto;
       }
       
 }
@@ -146,6 +231,45 @@
         padding: 5px 10px; 
     }
 
+    
+    /* service */
+    .services-section  h3{
+        font-size:16px;
+        
+    }
+
+    .services-section h3{
+        margin-top: 30px;
+    }
+
+    /*  get in touch */
+
+     .get-section img{
+        width: 300px;
+        height: 320px;
+        margin: 0 auto;
+      }
+
+      .get-section .left-rect{
+        display: none;
+      }
+
+      .get-section h1{
+          font-size: 22px;
+          margin-top: 50px;
+      }
+
+      .get-section .mb-4{
+          margin-bottom: 15px !important;
+      }
+
+      .get-section {
+        text-align: center;
+      }
+      
+      .get-section .global-btn{
+        margin: 0 auto;
+      }
 
     
 }
@@ -154,7 +278,7 @@
 @media (max-width: 380px) {
 
     .maxi-vh{
-        min-height: 495px;
+        min-height: 480px;
      }
     .banner-content h1{
         font-size: 18px;
@@ -200,6 +324,65 @@
       .about-content p{
         font-size: 14px;
         margin: 10px 0px;
+      }
+
+      /* services */
+      
+     .services-content h1{
+        font-size: 20px;
+    }
+    .services-content p{
+       font-size:14px;
+     }
+
+     .service-box p, .service-box-2 p{
+        font-size:14px;
+      }
+
+      .services-section  h3{
+        font-size:15px;
+        
+      }
+
+      /* portfolio */
+
+    .portfolio-header h1{
+        font-size: 20px;
+    }
+
+    .portfolio-menu ul li{
+        padding: 3px 5px;
+        font-size: 10px;
+      }
+
+      
+      /* contact */
+
+      .contact-section h1{
+        font-size: 20px;
+      }
+
+      .contact-section p{
+        font-size: 14px;
+      }
+        /* contact */
+
+      .get-section h1{
+        font-size: 20px;
+    }
+
+    .footer-section h5{
+        font-size: 12px;
+      }
+
+    .footer-link ul li{
+        padding: 0px 2px;
+        font-size: 12px;
+      }
+
+    .footer-social i{
+        padding: 0px 10px;
+        font-size: 15px;
       }
 
 }
