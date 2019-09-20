@@ -1,6 +1,6 @@
 @media(max-width:1199px){
     .navigation-section .logo{
-        margin-left: 0px;
+        margin-left: 80px;
     }
 
 }
@@ -11,11 +11,13 @@
     .navigation-section .nav-link{
         display: inline-block !important;
     }
+    .navigation-section .logo{
+        margin-left: 0px;
+    }
 }
 
 
 @media(max-width: 767px){
-
 }
 
 
