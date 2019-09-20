@@ -481,7 +481,7 @@ img{
 }
 
 .maxi-vh{
-  max-height: 60vh !important;
+  height: 375px !important;
 }
 .mini-vh{
   min-height: 100vh;
@@ -584,7 +584,7 @@ img{
   border-radius: 10px;
   position: relative;
   z-index: 200;
-  margin-inline-start: auto;
+  float: right;
 }
 .banner-img .right-rect{
     position: absolute;
