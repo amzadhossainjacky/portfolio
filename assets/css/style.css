@@ -516,7 +516,7 @@ img{
 **********************************/
 
 .navigation-section .logo{
-    margin-left: 100px;
+    margin-left: 96px;
     font-weight: 700;
     font-size: 25px;
 }
@@ -529,9 +529,15 @@ img{
     color: #213f60 !important;
     font-size: 14px;
     font-weight: bold;
-    padding-left: 20px !important;
-
+    padding-left: 30px !important;
 }
+
+.navigation-section .nav-link:last-child{
+  
+  padding-right: 0px !important;
+}
+
+
 
 /**********************************
 
