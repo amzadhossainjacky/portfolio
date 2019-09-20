@@ -1,10 +1,16 @@
 @media(max-width:1199px){
+    .navigation-section .logo{
+        margin-left: 0px;
+    }
 
 }
 
 
 @media(max-width: 991px){
 
+    .navigation-section .nav-link{
+        display: inline-block !important;
+    }
 }
 
 
