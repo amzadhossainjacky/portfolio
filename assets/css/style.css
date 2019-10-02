@@ -619,6 +619,8 @@ img{
   border-radius: 10px;
   z-index: 200 !important;
 }
+
+/* left orrange box design with positon*/
 .about-section .left-rect{
   position: absolute;
   height: 425px;
